@@ -61,3 +61,6 @@ body {
     font-style: bold;
     text-decoration: none;
 }
+.topicos__titulo{
+    background-color: var(--azul-degrade);
+}
