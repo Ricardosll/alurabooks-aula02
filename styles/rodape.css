@@ -10,3 +10,18 @@ hr {
     margin: 1em;
     font-weight: 400;
 }
+@media screen and (min-width: 1024px) {
+    .rodape {
+        display: flex;
+        justify-content: space-between;
+        padding: 2em 0 0 0;
+    }
+    .lista-rodape__link {
+        font-style: var(--fonte-principal);
+        font-size: 14px;
+        text-decoration: none;
+    }
+    .lista-rodape__titulo {
+        color: var(--cor-titulo-rodape);
+    }
+}

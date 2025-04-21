@@ -67,6 +67,7 @@
     height: 25%;
 }
 .card {
-
+    width: 40%;
+    margin: 2em auto;
 }
 }
