@@ -10,18 +10,44 @@ hr {
     margin: 1em;
     font-weight: 400;
 }
+.lista-rodape {
+    display: none;
+}
 @media screen and (min-width: 1024px) {
     .rodape {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         padding: 2em 0 0 0;
+    }
+    .lista-rodape{
+        display: block;
     }
     .lista-rodape__link {
         font-style: var(--fonte-principal);
         font-size: 14px;
         text-decoration: none;
+        color: var(--cinza);
+        margin-left: 0.5em;
     }
     .lista-rodape__titulo {
         color: var(--cor-titulo-rodape);
+        font-size: 14px;
+    }
+    .lista-rodape__item {
+        display:flex;
+        align-items: center;
+        margin: 0.6em 0;
+    }
+    .rodape__texto{
+        font-size: 24px;
+    }
+}
+@media screen and (min-width: 1728px) {
+    .lista-rodape {
+        border-left: 1px solid var(--cinza);
+        padding-left: 1em;
+    }
+    .rodape {
+        padding: 3em 0;
     }
 }

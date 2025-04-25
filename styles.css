@@ -14,7 +14,7 @@
     --azul: #002f52;
     --fonte-secundaria: "Josefin Sans";
     --preto: #000000;
-    --cor-titulo-rodape: #858585; 
+    --cinza: #474646; 
 }
 
 body {
@@ -75,4 +75,22 @@ body {
         justify-content: center;
     }
     
+}
+@media screen and (min-width:1728px){
+    .descricao__titulo-livro {
+        font-size: 18px;
+    }
+    .descricao__titulo {
+        font-size: 32px;
+    }
+    .descricao__titulo-desc {
+        font-size: 16px;
+    }
+    .card {
+        width: 60%;
+        margin-left: 3em;
+    }
+    .card__descricao {
+        margin-right: 1em;
+    }
 }
